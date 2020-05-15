@@ -89,7 +89,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\ReactiveReality\STB;C:\ReactiveReality\GLM\glm;C:\ReactiveReality\GLFW\glfw-3.3.2.bin.WIN64\include;C:\VulkanSDK\1.2.135.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ReactiveReality\TinyOBJLoader;C:\ReactiveReality\STB;C:\ReactiveReality\GLM\glm;C:\ReactiveReality\GLFW\glfw-3.3.2.bin.WIN64\include;C:\VulkanSDK\1.2.135.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -105,7 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\ReactiveReality\STB;C:\ReactiveReality\GLM\glm;C:\ReactiveReality\GLFW\glfw-3.3.2.bin.WIN64\include;C:\VulkanSDK\1.2.135.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ReactiveReality\TinyOBJLoader;C:\ReactiveReality\STB;C:\ReactiveReality\GLM\glm;C:\ReactiveReality\GLFW\glfw-3.3.2.bin.WIN64\include;C:\VulkanSDK\1.2.135.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -123,7 +123,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\ReactiveReality\STB;C:\ReactiveReality\GLM\glm;C:\ReactiveReality\GLFW\glfw-3.3.2.bin.WIN64\include;C:\VulkanSDK\1.2.135.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ReactiveReality\TinyOBJLoader;C:\ReactiveReality\STB;C:\ReactiveReality\GLM\glm;C:\ReactiveReality\GLFW\glfw-3.3.2.bin.WIN64\include;C:\VulkanSDK\1.2.135.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -143,7 +143,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\ReactiveReality\STB;C:\ReactiveReality\GLM\glm;C:\ReactiveReality\GLFW\glfw-3.3.2.bin.WIN64\include;C:\VulkanSDK\1.2.135.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\ReactiveReality\TinyOBJLoader;C:\ReactiveReality\STB;C:\ReactiveReality\GLM\glm;C:\ReactiveReality\GLFW\glfw-3.3.2.bin.WIN64\include;C:\VulkanSDK\1.2.135.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
