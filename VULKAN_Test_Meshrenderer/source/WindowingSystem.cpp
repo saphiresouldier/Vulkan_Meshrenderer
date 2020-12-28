@@ -1,7 +1,5 @@
 #include "WindowingSystem.h"
 
-//#include "ViewerApplication.h"
-
 const uint32_t WIDTH = 800;
 const uint32_t HEIGHT = 600;
 

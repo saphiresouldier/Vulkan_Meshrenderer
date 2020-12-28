@@ -5,8 +5,6 @@
 
 namespace Saphire
 {
-  //class ViewerApplication;
-
   class WindowingSystem
   {
 
