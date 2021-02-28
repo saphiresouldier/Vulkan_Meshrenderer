@@ -1,6 +1,7 @@
 #pragma once
 
 #include <optional>
+#include <vector>
 
 #include <vulkan/vulkan.h>
 #include "WindowingSystem.h"
@@ -33,9 +34,16 @@ namespace Saphire
     VkInstance getInstance();
     VkPhysicalDevice getPhysicalDevice();
     VkDevice getDevice();
+    VkSurfaceKHR getSurface();
     //VkSwapchainKHR getSwapChain(); // TODO
     VkQueue getGraphicsQueue();
     VkQueue getPresentQueue();
+
+    QueueFamilyIndices findQueueFamilies(VkPhysicalDevice device);
+    SwapChainSupportDetails querySwapChainSupport(VkPhysicalDevice device);
+    VkSurfaceFormatKHR chooseSwapSurfaceFormat(const std::vector<VkSurfaceFormatKHR>& availableFormats);
+    VkPresentModeKHR chooseSwapPresentMode(const std::vector<VkPresentModeKHR>& availablePresentModes);
+    VkExtent2D chooseSwapExtent(Saphire::WindowingSystem winSys, const VkSurfaceCapabilitiesKHR& capabilities);
 
   private:
     void createInstance();
@@ -47,11 +55,6 @@ namespace Saphire
     bool checkValidationLayerSupport();
     bool isDeviceSuitable(VkPhysicalDevice device);
     bool checkDeviceExtensionSupport(VkPhysicalDevice device);
-    QueueFamilyIndices findQueueFamilies(VkPhysicalDevice device);
-    SwapChainSupportDetails querySwapChainSupport(VkPhysicalDevice device);
-    VkSurfaceFormatKHR chooseSwapSurfaceFormat(const std::vector<VkSurfaceFormatKHR>& availableFormats);
-    VkPresentModeKHR chooseSwapPresentMode(const std::vector<VkPresentModeKHR>& availablePresentModes);
-    VkExtent2D chooseSwapExtent(Saphire::WindowingSystem winSys, const VkSurfaceCapabilitiesKHR& capabilities);
   
     // members -------------
     VkInstance instance;

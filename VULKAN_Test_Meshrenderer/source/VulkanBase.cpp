@@ -53,6 +53,11 @@ namespace Saphire
     return device;
   }
 
+  VkSurfaceKHR VulkanBase::getSurface()
+  {
+    return surface;
+  }
+
   VkQueue VulkanBase::getGraphicsQueue()
   {
     return graphicsQueue;

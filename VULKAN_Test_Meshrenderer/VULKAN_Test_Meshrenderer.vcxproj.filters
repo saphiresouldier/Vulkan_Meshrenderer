@@ -29,9 +29,6 @@
     <ClCompile Include="source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\VulkanInstance.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="source\ViewerApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -41,11 +38,11 @@
     <ClCompile Include="source\RenderEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\VulkanBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header\VulkanInstance.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="header\ViewerApplication.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -53,6 +50,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="header\RenderEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\VulkanBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -163,13 +163,13 @@
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\RenderEngine.cpp" />
     <ClCompile Include="source\ViewerApplication.cpp" />
-    <ClCompile Include="source\VulkanInstance.cpp" />
+    <ClCompile Include="source\VulkanBase.cpp" />
     <ClCompile Include="source\WindowingSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\RenderEngine.h" />
     <ClInclude Include="header\ViewerApplication.h" />
-    <ClInclude Include="header\VulkanInstance.h" />
+    <ClInclude Include="header\VulkanBase.h" />
     <ClInclude Include="header\WindowingSystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
