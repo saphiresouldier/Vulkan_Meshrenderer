@@ -2,6 +2,7 @@
 
 #include "WindowingSystem.h"
 #include "RenderEngine.h"
+#include "Scene.h"
 
 class ViewerApplication
 {
@@ -16,5 +17,6 @@ private:
   // members
   Saphire::WindowingSystem windowingSystem;
   Saphire::RenderEngine renderEngine;
+  Saphire::Scene scene;
   bool framebufferResized{ false };
 };

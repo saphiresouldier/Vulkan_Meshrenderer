@@ -1,10 +1,10 @@
 #include "RenderEngine.h"
 
 #define STB_IMAGE_IMPLEMENTATION
-#include <../../external/stb_image.h>
+#include <../external/stb_image.h>
 
 #define TINYOBJLOADER_IMPLEMENTATION
-#include <../../external/tiny_obj_loader.h>
+#include <../external/tiny_obj_loader.h>
 
 namespace Saphire
 {
@@ -211,8 +211,8 @@ namespace Saphire
 
   void RenderEngine::createGraphicsPipeline() {
     //shader modules
-    auto vertShaderCode = readFile("../Shaders/vert.spv");
-    auto fragShaderCode = readFile("../Shaders/frag.spv");
+    auto vertShaderCode = readFile("../source/Shaders/vert.spv");
+    auto fragShaderCode = readFile("../source/Shaders/frag.spv");
 
     std::cout << "opened shaders" << std::endl;
     std::cout << "vert buffersize: " << vertShaderCode.size() << std::endl;
@@ -744,7 +744,7 @@ namespace Saphire
 
     UniformBufferObject ubo{};
     ubo.model = glm::rotate(glm::mat4(1.0f), time * glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-
+    //ubo.model = glm::translate(glm::mat4(1.0f), time * glm::vec3(1.0f, 0.0f, 0.0f));
     ubo.view = glm::lookAt(glm::vec3(2.0f, 2.0f, 2.0f), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 0.0f, 1.0f));
 
     ubo.proj = glm::perspective(glm::radians(45.0f), swapChainExtent.width / (float)swapChainExtent.height, 0.1f, 10.0f);

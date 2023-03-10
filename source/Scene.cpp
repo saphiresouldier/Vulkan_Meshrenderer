@@ -13,7 +13,7 @@ namespace Saphire
 
   Scene::~Scene() 
   {
-    delete &root;
+    delete root;
   }
 
   bool Scene::add(SceneObject* object)
